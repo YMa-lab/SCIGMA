@@ -170,9 +170,6 @@ class SCIGMA:
 
             # full loss function
             loss = loss_recon_omics1 + loss_recon_omics2 + self.contrastive_weight1*loss_contrast_mod1 + self.contrastive_weight2*loss_contrast_mod2
-            if (epoch%50) == 0:
-                print(loss.item(), loss_recon_omics1.item(), loss_recon_omics2.item(), loss_contrast_mod1.item(), loss_contrast_mod2.item())
-                print(tau)
 
             self.optimizer.zero_grad()
             loss.backward()
