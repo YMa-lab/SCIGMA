@@ -2,8 +2,22 @@
 Spatially informed, Contrastive learning-based Integration with Graph neural 
 networks for Multi-sample multi-modal Analysis
 
-## Environment Steup
-- Create a virtual environment (python or conda)
+**Seowon Chang, Ying Ma**
+
+
+## Overview
+We present SCIGMA,a deep learning framework for integrating multi modal spatial omics data.
+Using uncertainty-based contrastive learning that accounts for intra- and inter-modality
+alignment, SCIGMA can accurately align multiple modalities. 
+SCIGMA has been evaluated on a variety of modalities and technologies, including
+spatial ATAC-seq, SPOTS, 10xXenium and 10xXenium Prime 5K, 10x VisiumHD, 
+Stereo-CITE-seq, CUT&Tag seq, and spatial metabolomics. 
+
+
+## Installation
+- Clone the repository
+```git clone https://github.com/YMa-lab/SCIGMA.git```
+- Create a virtual environment (python or conda) with Python 3.8
 ```conda create -n SCIGMA python=3.8```
 - Activate the environment
 ```conda activate SCIGMA```
@@ -16,3 +30,6 @@ networks for Multi-sample multi-modal Analysis
 - For Jupyter notebook: install ipykernel
 ```conda install -c anaconda ipykernel```
 ```python -m ipykernel install --user --name=SCIGMA```
+
+## Tutorial
+For running SCIGMA on a dataset, refer to our tutorial: https://github.com/YMa-lab/SCIGMA/blob/main/tutorial/SCIGMA_Tutorial.ipynb 
