@@ -32,7 +32,8 @@ conda activate SCIGMA
 
 - Install R packages
 ```bash
-conda install -c conda-forge r-base=4.0.5```, ```conda install -c conda-forge r-mclust==5.4.9
+conda install -c conda-forge r-base=4.0.5
+conda install -c conda-forge r-mclust==5.4.9
 ```
 
 - Install base python packages 
