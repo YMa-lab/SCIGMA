@@ -13,8 +13,6 @@ SCIGMA has been evaluated on a variety of modalities and technologies, including
 spatial ATAC-seq, SPOTS, 10xXenium and 10xXenium Prime 5K, 10x VisiumHD, 
 Stereo-CITE-seq, CUT&Tag seq, and spatial metabolomics. 
 
-![png](images/SCIGMA.png)
-
 ## Installation
 
 - Clone the repository
