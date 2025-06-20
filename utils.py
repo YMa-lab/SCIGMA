@@ -19,6 +19,8 @@ import rpy2.robjects.numpy2ri
 
 '''
 Utility Functions
+
+Some utility functions have been modified from https://github.com/JinmiaoChenLab/SpatialGlue/blob/main/SpatialGlue/utils.py (2024)
 '''
 def seed(seed=1000):
     os.environ['PYTHONHASHSEED'] = str(seed)
