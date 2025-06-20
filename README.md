@@ -13,7 +13,15 @@ SCIGMA has been evaluated on a variety of modalities and technologies, including
 spatial ATAC-seq, SPOTS, 10xXenium and 10xXenium Prime 5K, 10x VisiumHD, 
 Stereo-CITE-seq, CUT&Tag seq, and spatial metabolomics. 
 
+## Hardware and System Requirements
+SCIGMA has been tested on `python=3.8` and package versions listed in the `requirements.txt`. All analyses were run on a single cluster node with a 24Gb GPU and 100Gb of RAM or a cluster node with 24 CPUs and up to 400Gb of RAM. 
+
+SCIGMA is designed to work on all operating systems in principle. SCIGMA has been tested on the following systems:
+- Linux: Red Hat Enterprise Linux 9.2
+- macOS: Ventura 13.4
+
 ## Installation
+Installation instructions for SCIGMA and required environment. Installation should take between 10-20 minutes on a standard desktop.
 
 - Clone the repository
 ```bash
