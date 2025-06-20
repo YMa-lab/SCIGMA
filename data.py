@@ -18,6 +18,11 @@ from scipy import sparse
 from utils import lsi
 import gc
 
+'''
+Data and preprocessing functions
+
+Some helper functions have been modified from https://github.com/JinmiaoChenLab/SpatialGlue/blob/main/SpatialGlue/preprocess.py (2024)
+'''
 
 def read_10xVis(path, quality='full'):
     adata = sc.read_visium(path)
