@@ -1,9 +1,5 @@
 # SCIGMA
-
-### Seowon Chang, Ying Ma
-
-Spatially informed, Contrastive learning-based Integration with Graph neural 
-networks for Multi-modal Analysis
+Scalable, Generalizable, and Uncertainty-Aware Integration of Spatial Multi-Omics Across Diverse Modalities and Platforms with SCIGMA
 
 ## Overview
 We present SCIGMA,a deep learning framework for integrating multi modal spatial omics data.
@@ -61,6 +57,9 @@ conda install -c anaconda ipykernel
 ```python
 python -m ipykernel install --user --name=SCIGMA
 ```
+How to cite`SCIGMA`
+-------------------
+Seowon Chang, Alex Fleischmann, Ying Ma#. Scalable, Generalizable, and Uncertainty-Aware Integration of Spatial Multi-Omics Across Diverse Modalities and Platforms with SCIGMA
 
 ## Tutorial
 For running SCIGMA on a dataset, refer to our tutorial: https://github.com/YMa-lab/SCIGMA/blob/main/tutorial/SCIGMA_Tutorial.ipynb 
