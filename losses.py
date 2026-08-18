@@ -43,8 +43,8 @@ class MaxMargin_coot(nn.Module):
     
 class CrossCLR_onlyIntraModality(nn.Module):
     """
-    CrossCLR Loss between 2 groups of embeddings - Only Intra Modality alignment
-    ICCV 2021
+    CrossCLR Loss between 2 groups of embeddings 
+    https://github.com/amazon-science/crossmodal-contrastive-learning
     """
 
     def __init__(self, temperature=0.03, temperature_scale = 50, negative_weight=0.8, logger = None, device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')):
